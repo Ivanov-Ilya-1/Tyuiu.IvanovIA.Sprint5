@@ -18,7 +18,7 @@ namespace Tyuiu.IvanovIA.Sprint5.Task1.V20.Lib
             {
                 if (Math.Sin(x) + 3 != 0)
                 {
-                    y = (5 * x + 2.5 / (Math.Sin(x) + 3)) + 2*x + Math.Cos(x);
+                    y = ((5*x + 2.5) / (Math.Sin(x) + 3)) + (2*x) + (Math.Cos(x));
                     y = Math.Round(y, 2);
                     strY = Convert.ToString(y);
                 }
