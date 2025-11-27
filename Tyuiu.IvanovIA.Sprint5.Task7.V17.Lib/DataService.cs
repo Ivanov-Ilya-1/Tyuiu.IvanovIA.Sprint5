@@ -16,7 +16,7 @@ namespace Tyuiu.IvanovIA.Sprint5.Task7.V17.Lib
             }
 
             string content = File.ReadAllText(path);
-            string processedContent = Regex.Replace(content, "нн", "н");
+            string processedContent = Regex.Replace(content, "нн", "");
             File.WriteAllText(pathSaveFile, processedContent);
 
             return pathSaveFile;
