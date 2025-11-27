@@ -8,7 +8,7 @@ internal class Program
         int rows = 3; int cols = 3;
         int[,] matrix = new int[rows, cols];
 
-        DataService ds = new DataService();
+
         DataService ds = new DataService();
         Console.Title = "Спринт #5 | Выполнил: Иванов И.А. | ИИПб-25-1";
         Console.WriteLine("***************************************************************************");
